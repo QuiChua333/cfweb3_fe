@@ -1,0 +1,53 @@
+@import 'normalize.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+
+}
+
+@layer base {
+  * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    color: var(--foreground);
+    background: var(--background);
+    font-family: var(--font-open-sans);
+    @apply text-base
+  }
+
+  h1 {
+    @apply text-2xl;
+  }
+
+  h2 {
+    @apply text-xl;
+  }
+
+  h3 {
+    @apply text-lg
+  }
+
+  button,
+  input,
+  [tabindex] {
+    outline: none;
+    border: none;
+  }
+
+  a {
+    text-decoration: none;
+  }
+}
+
+@layer utilities {
+
+}
