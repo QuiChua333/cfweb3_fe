@@ -4,6 +4,9 @@
 @tailwind utilities;
 
 @layer base {
+  :root {
+    --text-color: #161823;
+  }
   * {
     box-sizing: border-box;
     padding: 0;
@@ -17,7 +20,7 @@
     color: var(--foreground);
     background: var(--background);
     font-family: var(--font-open-sans);
-    @apply text-base
+    @apply text-base;
   }
 
   h1 {
@@ -29,7 +32,7 @@
   }
 
   h3 {
-    @apply text-lg
+    @apply text-lg;
   }
 
   button,
@@ -98,7 +101,6 @@
 }
 
 @layer utilities {
-
 }
 
 @layer base {
