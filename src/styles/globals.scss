@@ -17,7 +17,6 @@
     color: var(--foreground);
     background: var(--background);
     font-family: var(--font-open-sans);
-    @apply text-base
     line-height: 1.5;
   }
 
@@ -95,5 +94,6 @@
   }
   body {
     @apply bg-background text-foreground;
+    @apply text-base;
   }
 }
